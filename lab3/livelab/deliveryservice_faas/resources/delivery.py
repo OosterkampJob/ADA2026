@@ -44,7 +44,7 @@ class Delivery:
                 "order_time": delivery.order_time.isoformat(),
                 "delivery_time": delivery.delivery_time.isoformat(),
                 "status": {
-                    "status": status_obj.status,
+                    "status": status_obj.status_name,
                     "last_update": status_obj.last_update.isoformat(),
                 }
             }
