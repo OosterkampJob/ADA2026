@@ -1,5 +1,7 @@
 import datetime
+
 from flask import jsonify
+
 from daos.delivery_dao import DeliveryDAO
 from db import Session
 
