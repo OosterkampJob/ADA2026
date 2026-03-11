@@ -44,4 +44,4 @@ if __name__ == '__main__':
         }
     ]
     data = json.dumps(data).encode("utf-8")
-    publish_message("your project id", "diabetes_req", data)  # replace your project id
+    publish_message("qualified-city-486215-i5", "diabetes_req", data)  # replace your project id
